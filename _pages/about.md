@@ -1,58 +1,71 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+excerpt: "Personal homepage of Zhoujun Ye."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+# About Me
 
-<span class='anchor' id='about-me'></span>
+I am **Zhoujun Ye**, a final-year undergraduate student majoring in Statistics at [Nanjing Agricultural University](https://www.njau.edu.cn/), advised by [Yuanyuan Chen](https://faculty.njau.edu.cn/chenyuanyuan/zh_CN/index.htm). I have also collaborated with [Yiwei Fu](https://openreview.net/profile?id=~Yiwei_Fu3) at Peking University and [Xiao Luo](https://luoxiao12.github.io/index.html) at the University of Wisconsin-Madison.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am currently working as a Research Assistant at the [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), advised by [Sijia Chen](https://csjdeveloper.github.io/sjiachen.github.io/).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am actively seeking internship opportunities in industry. Please feel free to contact me at [zhoujunye0712@gmail.com](mailto:zhoujunye0712@gmail.com) if you have any opportunities or would like to connect.
 
+# 🔬 Research Interests
+{: #research-interests }
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+My previous research focused on **vision-language models**. I am currently interested in **LLM agents** and **agentic AI**, with a particular focus on **recursive self-improvement (RSI)** and **agent teams**. I am especially interested in how agents improve through iterative feedback, maintain memory and coherent plans over long-horizon tasks, and communicate, coordinate, and collaborate to solve complex problems.
 
-# 📝 Publications 
+# 📣 News
+{: #news }
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- 🎉 **2026.09**: My paper, **Beyond Global Alignment: Structured Compositional Reasoning for Vision-Language Models**, was accepted to **NeurIPS 2026**.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+# 📚 Publications
+{: #publications }
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">NeurIPS 2026</div>
+      <a href="https://openreview.net/forum?id=4HnBl3JKLK">
+        <img src="images/beyond-global-alignment.png" alt="Method overview: direction-aware relation bucketing and object-conditioned binding localization" loading="lazy">
+      </a>
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Beyond Global Alignment: Structured Compositional Reasoning for Vision-Language Models**
+
+**Zhoujun Ye**, Yiwei Fu, Qiyun Huang, Jie Yang, Dongjie Wang, Xiao Luo
+
+*NeurIPS 2026*
+
+[OpenReview](https://openreview.net/forum?id=4HnBl3JKLK)
+
+  </div>
 </div>
+
+# 🏛️ Research Experience
+{: #research-experience }
+
+<div class="research-experience" markdown="1">
+
+- <img src="images/universities/hkust-gz-seal.png" alt="HKUST(GZ) logo" width="64" height="64"> <span>**2026-Present** · **Hong Kong University of Science and Technology (Guangzhou)** · Advised by [Sijia Chen](https://csjdeveloper.github.io/sjiachen.github.io/).</span>
+- <img src="images/universities/pku.png" alt="Peking University logo" width="32" height="32"> <span>**2025-2026** · **Peking University** · Advised by [Yiwei Fu](https://openreview.net/profile?id=~Yiwei_Fu3).</span>
+- <img src="images/universities/wisc-seal.svg" alt="UW-Madison logo" width="64" height="64"> <span>**2025-2026** · **University of Wisconsin-Madison** · Advised by [Xiao Luo](https://luoxiao12.github.io/index.html).</span>
+- <img src="images/universities/njau-seal.jpg" alt="Nanjing Agricultural University logo" width="64" height="64"> <span>**2023-2024** · **Nanjing Agricultural University** · Advised by [Yuanyuan Chen](https://faculty.njau.edu.cn/chenyuanyuan/zh_CN/index.htm).</span>
+
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+# 🏆 Honors and Awards
+{: #honors-and-awards }
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- **2024-2025**: First-Class Outstanding Student Scholarship, Nanjing Agricultural University.
+- **2023-2024**: National Scholarship.
+- **2023-2024**: First-Class Outstanding Student Scholarship, Nanjing Agricultural University.

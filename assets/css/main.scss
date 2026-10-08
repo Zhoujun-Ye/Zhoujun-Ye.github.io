@@ -107,3 +107,34 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.research-experience ul {
+    padding-left: 24px;
+    list-style: none;
+}
+
+.research-experience li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 104px;
+    margin-bottom: 24px;
+}
+
+.research-experience img {
+    flex: 0 0 96px;
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+}
+
+.research-experience span {
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 599px) {
+    .research-experience ul {
+        padding-left: 12px;
+    }
+}

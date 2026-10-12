@@ -67,6 +67,6 @@ My previous research focused on **vision-language models**. I am currently inter
 {: #honors-and-awards }
 
 - **2024-2025**: First-Class Outstanding Student Scholarship, Nanjing Agricultural University.
+- **2024-2025**: First Prize, Jiangsu Division, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).
 - **2023-2024**: National Scholarship.
 - **2023-2024**: First-Class Outstanding Student Scholarship, Nanjing Agricultural University.
-- **2024-2025**: First Prize, Jiangsu Division, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM).

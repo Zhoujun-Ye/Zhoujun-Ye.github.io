@@ -19,7 +19,7 @@ I am actively seeking internship opportunities in industry. Please feel free to 
 # 🔬 Research Interests
 {: #research-interests }
 
-My previous research focused on **vision-language models**. I am currently interested in **LLM agents** and **agentic AI**, with a particular focus on **recursive self-improvement (RSI)** and **agent teams**. I am especially interested in how agents improve through iterative feedback, maintain memory and coherent plans over long-horizon tasks, and communicate, coordinate, and collaborate to solve complex problems.
+My previous research focused on **vision-language models**. I am currently interested in **LLM agents**, **agentic AI**, and **decision models**, with a particular focus on **recursive self-improvement (RSI)** and **agent teams**. I am especially interested in how agents improve through iterative feedback, maintain memory and coherent plans over long-horizon tasks, and communicate, coordinate, and collaborate to solve complex problems.
 
 # 📣 News
 {: #news }

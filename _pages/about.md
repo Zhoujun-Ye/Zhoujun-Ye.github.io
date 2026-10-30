@@ -31,23 +31,15 @@ My previous research focused on **vision-language models**. I am currently inter
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <div>
-      <div class="badge">NeurIPS 2026</div>
-      <a href="https://openreview.net/forum?id=4HnBl3JKLK">
-        <img src="images/beyond-global-alignment.png" alt="Method overview: direction-aware relation bucketing and object-conditioned binding localization" loading="lazy">
-      </a>
-    </div>
+    <a href="https://openreview.net/forum?id=4HnBl3JKLK">
+      <img src="images/beyond-global-alignment.png" alt="Method overview: direction-aware relation bucketing and object-conditioned binding localization" loading="lazy">
+    </a>
   </div>
-  <div class="paper-box-text" markdown="1">
-
-**Beyond Global Alignment: Structured Compositional Reasoning for Vision-Language Models**
-
-**Zhoujun Ye**, Yiwei Fu, Qiyun Huang, Jie Yang, Dongjie Wang, Xiao Luo
-
-*NeurIPS 2026*
-
-[OpenReview](https://openreview.net/forum?id=4HnBl3JKLK)
-
+  <div class="paper-box-text">
+    <p class="paper-title"><span class="badge">NeurIPS 2026</span>Beyond Global Alignment: Structured Compositional Reasoning for Vision-Language Models</p>
+    <p class="paper-tldr">Direction-aware relations and object-conditioned binding that take VLMs beyond global alignment.</p>
+    <p class="paper-links"><a href="https://openreview.net/forum?id=4HnBl3JKLK">Paper</a></p>
+    <p class="paper-authors"><strong>Zhoujun Ye</strong>, Yiwei Fu, Qiyun Huang, Jie Yang, Dongjie Wang, Xiao Luo</p>
   </div>
 </div>
 

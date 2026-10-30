@@ -42,49 +42,73 @@
 
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    align-items: center;
+    gap: 1em 1.25em;
+    margin: 1.5em 0;
+    padding: 1em 1.25em;
+    border: 1px solid #e3e5e8;
+    border-left: 5px solid $info-color;
+    border-radius: 8px;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text{
+    /* text drops below the image when the card is too narrow for both */
+    .paper-box-image {
+        flex: 0 0 240px;
         max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
 
+        img {
+            display: block;
+            width: 100%;
+            padding: 4px;
+            border: 1px solid #e3e5e8;
+            border-radius: 6px;
+        }
     }
 
+    .paper-box-text {
+        flex: 1 1 360px;
+        min-width: 0;
 
+        p {
+            margin: 0 0 .5em;
+        }
+    }
+
+    .paper-title {
+        color: #222;
+        font-size: 1.15em;
+        font-weight: bold;
+        line-height: 1.45;
+    }
+
+    .paper-tldr {
+        color: #62686d;
+        font-style: italic;
+    }
+
+    .paper-links a {
+        display: inline-block;
+        padding: .1em .9em;
+        border: 2px solid $info-color;
+        border-radius: 999px;
+        color: $info-color;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $info-color;
+            color: #fff;
+        }
+    }
+
+    .paper-authors {
+        margin-bottom: 0;
+        color: #62686d;
+
+        strong {
+            color: #222;
+        }
+    }
 }
 
 $scroll_offset : 2em;
@@ -98,14 +122,15 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    display: inline-block;
+    margin-right: .5em;
+    padding: .1em .5em;
+    border-radius: 4px;
     color: white;
-    background-color: #00369f;
-    font-size: .8em;
+    background-color: $info-color;
+    font-size: .85em;
+    line-height: 1.5;
+    vertical-align: .1em;
 }
 
 .research-experience ul {

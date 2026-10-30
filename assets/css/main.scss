@@ -76,9 +76,9 @@
 
     .paper-title {
         color: #222;
-        font-size: 1.15em;
         font-weight: bold;
         line-height: 1.45;
+        text-wrap: balance;
     }
 
     .paper-tldr {
@@ -161,5 +161,44 @@ h1:before, .anchor:before {
 @media (max-width: 599px) {
     .research-experience ul {
         padding-left: 12px;
+    }
+}
+
+.awards {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid #e3e5e8;
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        margin: 0;
+        padding: .75em;
+        border-bottom: 1px solid #e3e5e8;
+    }
+
+    .award-year {
+        flex: 0 0 6em;
+        color: #62686d;
+    }
+
+    .award-body {
+        flex: 1;
+        min-width: 0;
+
+        strong,
+        span {
+            display: block;
+        }
+
+        strong {
+            color: #222;
+        }
+
+        span {
+            color: #62686d;
+        }
     }
 }

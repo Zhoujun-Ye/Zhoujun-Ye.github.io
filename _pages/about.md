@@ -62,7 +62,7 @@ My previous research focused on **vision-language models**. I am currently inter
   <li>
     <span class="award-year">2024, 2025</span>
     <div class="award-body">
-      <strong>First-Class Outstanding Student Scholarship</strong>
+      <strong>First-Class Outstanding Student Scholarship × 2</strong>
       <span>Nanjing Agricultural University</span>
     </div>
   </li>

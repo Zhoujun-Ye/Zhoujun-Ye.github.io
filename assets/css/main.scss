@@ -132,34 +132,67 @@ h1:before, .anchor:before {
     vertical-align: .1em;
 }
 
-.research-experience ul {
-    padding-left: 48px;
+.affiliations {
+    margin: 0 0 1em;
+    padding: 0;
     list-style: none;
-}
 
-.research-experience li {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    min-height: 104px;
-    margin-bottom: 24px;
-}
+    li {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        margin: 0;
+        padding: .75em 0;
+    }
 
-.research-experience img {
-    flex: 0 0 96px;
-    width: 96px;
-    height: 96px;
-    object-fit: contain;
-}
+    li + li {
+        border-top: 1px dashed #e3e5e8;
+    }
 
-.research-experience span {
-    min-width: 0;
-    overflow-wrap: break-word;
+    .affiliation-logo {
+        flex: 0 0 auto;
+        width: 44px;
+        height: 44px;
+        padding: 4px;
+        border: 1px solid #e3e5e8;
+        border-radius: 8px;
+        object-fit: contain;
+    }
+
+    .affiliation-body {
+        flex: 1;
+        min-width: 0;
+
+        strong,
+        span {
+            display: block;
+        }
+
+        strong {
+            color: #222;
+        }
+
+        span {
+            color: #62686d;
+        }
+    }
+
+    .affiliation-date {
+        color: #62686d;
+        white-space: nowrap;
+    }
 }
 
 @media (max-width: 599px) {
-    .research-experience ul {
-        padding-left: 12px;
+    /* date drops under the text, lined up after the logo */
+    .affiliations li {
+        flex-wrap: wrap;
+        row-gap: 0;
+    }
+
+    .affiliations .affiliation-date {
+        flex-basis: 100%;
+        padding-left: calc(44px + 1em);
     }
 }
 

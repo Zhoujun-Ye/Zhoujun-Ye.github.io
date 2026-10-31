@@ -38,7 +38,7 @@ My previous research focused on **vision-language models**. I am currently inter
   <div class="paper-box-text">
     <p class="paper-title"><span class="badge">NeurIPS 2026</span>Beyond Global Alignment: Structured Compositional Reasoning for Vision-Language Models</p>
     <p class="paper-tldr">Direction-aware relations and object-conditioned binding that take VLMs beyond global alignment.</p>
-    <p class="paper-links"><a href="https://openreview.net/forum?id=4HnBl3JKLK">Paper</a></p>
+    <p class="paper-links"><a href="https://openreview.net/forum?id=4HnBl3JKLK">Paper</a> <a href="https://github.com/Zhoujun-Ye/DELTA">Code</a></p>
     <p class="paper-authors"><strong>Zhoujun Ye</strong>, Yiwei Fu, Qiyun Huang, Jie Yang, Dongjie Wang, Xiao Luo</p>
   </div>
 </div>
